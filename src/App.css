@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F4ECF7;
+  color: #212F3D;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App{
+  width: min(100vw,420px);
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+input{
+  margin: 0px auto;
+  width: max(80%,300px);
+  height: 30px;
+  display: block;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 5px;
+}
+
+button{
+  margin: 10px auto;
+  width: max(80%,300px);
+  height: 30px;
+  display: block;
+  background-color: #212F3D;
+  color: #F4ECF7;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: transparent;
+  color: #212F3D;
+  border: 1px solid #212F3D;
+  transition: 200ms;
+}
+
+ul{
+  list-style: none;
+  width: max(80%,300px);
+  margin: 30px auto;
+}
+
+li{
+  font-size: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: white;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+h3{
+  margin: 20px auto;
+  text-align: center;
+}
+
+
